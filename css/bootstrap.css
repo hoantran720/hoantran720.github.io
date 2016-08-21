@@ -56,6 +56,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
+    font-family: 'Charlevoix Bold';
 }
 dfn {
   font-style: italic;
@@ -1079,6 +1080,9 @@ th {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
 }
 *:before,
 *:after {
@@ -3787,8 +3791,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
-  float: left;
-  height: 50px;
+  height: 75px;
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
@@ -3997,6 +4000,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-left {
     float: left !important;
+    margin-left: -35px;
   }
   .navbar-right {
     float: right !important;
