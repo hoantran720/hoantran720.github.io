@@ -137,8 +137,8 @@ hr:after {
 
 p {
     margin: 20px 0;
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 u {
@@ -153,13 +153,15 @@ u {
 }
 
 u:before {
+    /*
     content: '';
     position: absolute;
-/*    bottom: .2rem;*/
+    bottom: .2rem;
     width: 97%;
     height: 35%;
     line-height: 0;
     border-bottom: 2px dotted #ddd;
+*/
 }
 
 p.small {
@@ -179,6 +181,7 @@ p.supersmall {
     display: inline;
     z-index: 1;
     padding-right: .2rem;
+    min-width: 4rem;
 }
 
 .price {
@@ -186,7 +189,7 @@ p.supersmall {
     background: inherit;
     position: absolute;
     min-width: 4rem;
-    right: 0;
+    right: 2%;
     padding-left: .2rem;
     text-align: right;
     z-index: 2;
@@ -588,6 +591,25 @@ section.reviews {
     }
     .owl-reviews .owl-controls .owl-prev {}
     .owl-reviews .owl-controls .owl-next {}
+}
+
+#honeymap {
+    height: 450px;
+    width: 100%;
+}
+
+.gm-style-iw * {
+    display: block;
+}
+
+.gm-style-iw h4,
+.gm-style-iw p {
+    margin: 0;
+    padding: 0;
+}
+
+.gm-style-iw a {
+    color: #4272db;
 }
 
 
@@ -1015,4 +1037,8 @@ button:focus {
     left: calc(50% - 10px);
     color: #666;
     font-size: 24px;
+}
+#catering {
+    background-image: url(../img/slider.jpg);
+    background-size: cover;
 }
