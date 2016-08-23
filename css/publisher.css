@@ -311,7 +311,7 @@ header .intro-text {
     display: block;
     width: 0%;
     height: 3px;
-    background: #7cc576;
+    background: #fecc00;
     content: ' ';
     margin: 0 auto;
     margin-top: 3px;
@@ -447,8 +447,8 @@ section.reviews {
 }
 
 .btn.btn-green:hover {
-    background: #96db90;
-    border-color: #96db90;
+    background: #ECB645;
+    border-color: #ECB645;
 }
 
 .btn.btn-white {
