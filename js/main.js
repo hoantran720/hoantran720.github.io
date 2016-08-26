@@ -55,7 +55,8 @@ jQuery(function ($) {
     $(window).load(function () {
         $('.flexslider').flexslider({
             smoothHeight: "boolean",
-            controlNav: false
+            touch: true,
+            directionNav: false,
         });
     });
 
@@ -99,9 +100,6 @@ jQuery(function ($) {
             fixed_point = $('.navbar').offset().top;
     }
 
-    // Google Map API
-    
-    
     
     $('.sample-button').click(function (event) {
         $('#sample-form').slideDown();
